@@ -1,0 +1,125 @@
+{
+  "users": {
+    "user1": {
+      "displayName": "Jobby",
+      "email": "jobby@modachi.com",
+      "profileImage": "https://example.com/profile.jpg",
+      "settings": {
+        "emailNotifications": true,
+        "pushNotifications": true,
+        "darkMode": false,
+        "language": "en",
+        "privacySettings": {
+          "profileVisibility": "public",
+          "showOnline": true,
+          "showActivity": true,
+          "allowMessages": "everyone"
+        }
+      }
+    }
+  },
+  "featuredContent": {
+    "feat1": {
+      "title": "Sustainable Fashion Trends 2024",
+      "description": "Discover how sustainability is reshaping the fashion industry",
+      "image": "https://example.com/sustainable.jpg",
+      "type": "BLOG",
+      "publishDate": "2024-01-20"
+    },
+    "feat2": {
+      "title": "Paris Fashion Week Highlights",
+      "description": "Key moments and trending styles from this year's event",
+      "image": "https://example.com/paris.jpg",
+      "type": "EVENT",
+      "publishDate": "2024-01-15"
+    },
+    "feat3": {
+      "title": "Minimalist Wardrobe Guide",
+      "description": "Build a versatile wardrobe with fewer pieces",
+      "image": "https://example.com/minimalist.jpg",
+      "type": "GUIDE",
+      "publishDate": "2024-01-10"
+    }
+  },
+  "trends": {
+    "trend1": {
+      "title": "Y2K Fashion Revival",
+      "description": "The return of 2000s fashion with modern twists",
+      "image": "https://example.com/y2k.jpg",
+      "popularity": 95,
+      "tags": ["y2k", "retro", "trending"],
+      "startDate": "2024-01-01"
+    },
+    "trend2": {
+      "title": "Sustainable Materials",
+      "description": "Eco-friendly fabrics taking over the runway",
+      "image": "https://example.com/sustainable.jpg",
+      "popularity": 88,
+      "tags": ["sustainable", "eco-friendly", "innovation"],
+      "startDate": "2024-01-05"
+    },
+    "trend3": {
+      "title": "Digital Fashion",
+      "description": "Virtual clothing and NFT fashion pieces",
+      "image": "https://example.com/digital.jpg",
+      "popularity": 92,
+      "tags": ["digital", "nft", "virtual"],
+      "startDate": "2024-01-10"
+    }
+  },
+  "moodboards": {
+    "board1": {
+      "userId": "user1",
+      "title": "Spring Collection 2024",
+      "description": "Light and fresh spring styles",
+      "items": {
+        "item1": {
+          "image": "https://example.com/spring1.jpg",
+          "position": {"x": 100, "y": 150},
+          "scale": 1.0,
+          "rotation": 0
+        },
+        "item2": {
+          "image": "https://example.com/spring2.jpg",
+          "position": {"x": 250, "y": 200},
+          "scale": 0.8,
+          "rotation": 15
+        }
+      },
+      "createdAt": "2024-01-01"
+    },
+    "board2": {
+      "userId": "user1",
+      "title": "Summer Vibes",
+      "description": "Beach and resort wear inspiration",
+      "items": {
+        "item1": {
+          "image": "https://example.com/summer1.jpg",
+          "position": {"x": 150, "y": 200},
+          "scale": 1.2,
+          "rotation": -10
+        },
+        "item2": {
+          "image": "https://example.com/summer2.jpg",
+          "position": {"x": 300, "y": 250},
+          "scale": 1.0,
+          "rotation": 0
+        }
+      },
+      "createdAt": "2024-01-15"
+    }
+  },
+  "closetItems": {
+    "item1": {
+      "userId": "user1",
+      "title": "Denim Jacket",
+      "category": "outerwear",
+      "image": "https://example.com/denim.jpg",
+      "tags": ["casual", "denim", "spring"],
+      "color": "blue",
+      "season": "spring",
+      "lastWorn": "2024-01-15",
+      "dateAdded": "2024-01-01"
+    }
+  }
+}
